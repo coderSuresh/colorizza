@@ -1,6 +1,5 @@
 const hex = document.getElementById('hex');
 const hsl = document.getElementById('hsl');
-const rgb = document.getElementById('rgb');
 const result = document.getElementById('color-code');
 const preview = document.getElementById('preview');
 
@@ -34,7 +33,7 @@ function generateHex() {
 }
 
 function generateHsl() {
-    var randomColor = 'hsl(' + Math.floor(Math.random() * 360) + ', ' + Math.floor(Math.random() * 100) + '%, ' + Math.floor(Math.random() * 100) + '%)';
+    let randomColor = 'hsl(' + Math.floor(Math.random() * 360) + ', ' + Math.floor(Math.random() * 100) + '%, ' + Math.floor(Math.random() * 100) + '%)';
     
     colorCode = randomColor;
     preview.style.background = randomColor;
@@ -42,7 +41,7 @@ function generateHsl() {
 }
 
 function generateRgb() {
-    var randomColor = 'rgb(' + Math.floor(Math.random() * 255) + ', ' + Math.floor(Math.random() * 255) + ', ' + Math.floor(Math.random() * 255) + ')';
+    let randomColor = 'rgb(' + Math.floor(Math.random() * 255) + ', ' + Math.floor(Math.random() * 255) + ', ' + Math.floor(Math.random() * 255) + ')';
 
     colorCode = randomColor;
     result.innerHTML = randomColor;
