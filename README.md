@@ -1,7 +1,7 @@
 # Introduction
 Colorizza is a program through which you can generate random color code based on the HEX, HSL, and RGB.
 
-#Usage
+# Usage
 You can go to [Colorizza](https://codersuresh.github.io/colorizza) and choose one format using radio buttons and click on generate.
 
 Random color code will be generated with the chosen format.
