@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Colorizza | Random Color Generator">
+    <meta name="description"
+        content="Thinking to generate random color based on HEX, HSL or RGB? You are at right place. You can do so by using Colorizza. Click to start now.">
+    <meta name="keywords"
+        content="colorizza, random color generator, random hex color generator, random hsl color generator, random rgb color generator, random color picker">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="author" content="Coder Suresh">
+
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="Colorizza | Random Color Generator">
+    <meta property="og:site_name" content="Colorizza">
+    <meta property="og:url" content="codersuresh.github.io/colorzilla">
+    <meta property="og:description"
+        content="Thinking to generate random color based on HEX, HSL or RGB? You are at right place. You can do so by using Colorizza. Click to start now.">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://github.com/coderSuresh/Colorizza/blob/main/images/Random%20color%20generator%20colorizza.png?raw=true">
+
+    <title>Colorizza | Random Color Generator</title>
+
+    <!-- External css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/1e835f02bf.js" crossorigin="anonymous"></script>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/icon_color.svg" alt="logo" class="logo-icon">
+                <h1>Colorizza</h1>
+            </div>
+            <a href="https://github.com/coderSuresh/Colorizza" target="_blank" class="button">Give a star</a>
+        </nav>
+
+        <hr id="hr">
+
+    </header>
+
+    <main>
+        <h1 class="title">Welcome to Colorizza</h1>
+        <p class="description">Using this program, you can generate random color code on HEX, RGB or HSL. This project
+            is done as a learning part and
+            fun.
+        </p>
+
+        <div class="radio-container">
+            <label class="radio">
+                <input type="radio" name="color" id="hex" value="HEX" />HEX
+                <span></span>
+            </label><label class="radio radio2">
+                <input type="radio" checked = "true" name="color" id="hsl" value="HSL" />HSL
+                <span></span>
+            </label><label class="radio radio3">
+                <input type="radio" name="color" id="rgb" value="RGB" />RGB
+                <span></span>
+            </label>
+        </div>
+
+        <a class="button btn-gen">Generate</a>
+
+        <div class="result">
+            <p class="result-desc">Random color generated<br><span class="color-code">hsl(279, 100%, 29%)</span></p>
+            <img src="images/copy.svg" alt="copy button" class="copy-btn">
+        </div>
+
+        <div class="preview"></div>
+    </main>
+
+    <footer>
+        <div class="profile">
+            <img src="images/profile.png" alt="picture of developer">
+            <p class="description desc-dev">I am suresh, IT student
+                Currently learning Front End.</p>
+        </div>
+
+        <div class="socials">
+            <h2 class="footer-title">Social links</h2>
+            <div class="content">
+                <i class="fab fa-facebook-square"></i>
+                <a href="https://facebook.com/codersuresh">Facebook</a>
+            </div>
+            <div class="content">
+                <i class="fab fa-linkedin"></i>
+                <a href="https://www.linkedin.com/in/codersuresh/">Linkedin</a>
+            </div>
+            <div class="content">
+                <i class="fa fa-github-square"></i>
+                <a href="https://github.com/codersuresh">Github</a>
+            </div>
+            <div class="content">
+                <i class="fab fa-twitter-square"></i>
+                <a href="https://twitter.com/codersuresh">Twitter</a>
+            </div>
+        </div>
+
+        <div class="my-apps">
+            <h2 class="footer-title">My Apps</h2>
+            <div class="content">
+                <a href="https://subitechnepal.blogspot.com/p/our-apps.html#:~:text=Sensor%20Detector%20with%20flash%20light">Sensor detector</a>
+            </div>
+            <div class="content">
+                <a href="https://subitechnepal.blogspot.com/p/apk-with-source-code.html#:~:text=3.-,Text%20To%20Speech,-For%20APK%3A%C2%A0Go">Text to speech</a>
+            </div>
+            <div class="content">
+                <a href="https://subitechnepal.blogspot.com/p/our-apps.html#:~:text=String%20to%20ASCII%20converter%3A">ASCII Converter</a>
+            </div>
+            <div class="content">
+                <a href="https://subitechnepal.blogspot.com/p/apk-with-source-code.html#:~:text=1.)-,Simple%20Guess%20Game%3A-,-For%20Apk%3A-%20Go">Guess Game</a>
+            </div>
+        </div>
+
+        <div class="knowledge">
+            <h2 class="footer-title">Knowledge</h2>
+            <div class="content">
+                <a href="#">C programming</a>
+            </div>
+            <div class="content">
+                <a href="#">HTML, CSS, JS</a>
+            </div>
+            <div class="content">
+                <a href="#">JAVA</a>
+            </div>
+            <div class="content">
+                <a href="#">Word, Excel</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- external JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
