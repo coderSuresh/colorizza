@@ -73,14 +73,14 @@
             </label>
         </div>
 
-        <a class="button btn-gen">Generate</a>
+        <a class="button btn-gen" onclick="generateColor()" id="generate">Generate</a>
 
         <div class="result">
-            <p class="result-desc">Random color generated<br><span class="color-code">hsl(279, 100%, 29%)</span></p>
-            <img src="images/copy.svg" alt="copy button" class="copy-btn">
+            <p class="result-desc">Random color generated<br><span id="color-code">hsl(279, 100%, 29%)</span></p>
+            <img src="images/copy.svg" alt="copy button" class="copy-btn" onclick="copyCode()">
         </div>
 
-        <div class="preview"></div>
+        <div class="preview" id="preview"></div>
     </main>
 
     <footer>
