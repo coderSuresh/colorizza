@@ -9,7 +9,7 @@ Random color code will be generated with the chosen format.
 If you want to copy that color code to use somewhere, you can press the icon next to the color code to copy the code directly to your clipboard.
  
 
-#Summary
+# Summary
 This is not a professional program, and the idea isn’t innovative.
 
 What is your favorite color?
