@@ -49,7 +49,7 @@ function generateRgb() {
 }
 
 function copyCode() {
-    alert("Successfully opied to clipboard"); //alert success message 
+    alert("Successfully copied to clipboard"); //alert success message 
 
     // create temp input field to copy
     let temp = document.createElement('input');
@@ -60,4 +60,5 @@ function copyCode() {
 
     // copy to clipboard
     navigator.clipboard.writeText(temp.value);
+    document.execCommand('copy');
 }
