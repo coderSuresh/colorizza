@@ -3,7 +3,7 @@ const hsl = document.getElementById('hsl');
 const result = document.getElementById('color-code');
 const preview = document.getElementById('preview');
 
-var colorCode = "hsl(279, 100%, 29%)";
+let colorCode = "hsl(279, 100%, 29%)";
 
 function generateColor() {
     if (hex.checked) {
@@ -21,7 +21,7 @@ function generateColor() {
 
 function generateHex() {
     const hexContent = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f"];
-    var i, randomColor = "#", random;
+    let i, randomColor = "#", random;
 
     for (i = 1; i <= 6; i++) {
         random = Math.floor(Math.random() * hexContent.length);
