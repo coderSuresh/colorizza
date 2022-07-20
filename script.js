@@ -59,7 +59,6 @@ function copyCode() {
     // copy to clipboard
     temp.select();
     navigator.clipboard.writeText(temp.value);
-    document.execCommand('copy');
     
     document.body.removeChild(temp); // remove the temp input
 
