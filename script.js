@@ -53,7 +53,6 @@ function copyCode() {
 
     // create temp input field to copy
     let temp = document.createElement('input');
-    // temp.style.display = 'none'; //either hide the temp input
     temp.value = colorCode; //assign value of current color code to the temp input field
     document.body.appendChild(temp); //add temp element to body
     
@@ -62,7 +61,7 @@ function copyCode() {
     navigator.clipboard.writeText(temp.value);
     document.execCommand('copy');
     
-    document.body.removeChild(temp); // or remove the temp input
+    document.body.removeChild(temp); // remove the temp input
 
 
 }
