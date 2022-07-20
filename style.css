@@ -24,9 +24,6 @@ body {
 
 nav {
     padding: 20px 5%;
-}
-
-nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
